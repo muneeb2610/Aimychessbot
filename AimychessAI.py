@@ -219,7 +219,7 @@ def train_aimy(aimy, game, episodes=1000, batch_size=32, save_interval=100):
 
 # Main program
 if __name__ == "__main__":
-    stockfish = Stockfish(path=r"G:\stockfish-windows-x86-64-sse41-popcnt\stockfish\stockfish-windows-x86-64-sse41-popcnt.exe")
+    stockfish = Stockfish(path=r" ") #paste your stockfish path
     game = ChessGame()
     input_size = 64  # 8x8 board
     output_size = 4672  # Maximum number of possible moves
